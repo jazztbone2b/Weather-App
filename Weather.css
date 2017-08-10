@@ -1,0 +1,62 @@
+body{
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+}
+
+#weather{
+  background-color: black;
+  color: white;
+}
+#weather-info{
+  border: 1px solid black;
+  height: 600px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 25px;
+  background-color: grey;
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+}
+#location{
+  margin-top: 50px;
+}
+#currentTemp{
+  margin-top: 30px;
+}
+#conditions{
+  margin-top: 30px;
+}
+#icon{
+  margin-top: 25px;
+}
+#saying{
+  color: white;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: grey;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px){
+  #weather-info{
+    width: 350px;
+  }
+}
