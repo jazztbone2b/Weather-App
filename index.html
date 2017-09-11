@@ -93,14 +93,7 @@ a:visited{
    <footer><a href="https://codepen.io/jazztbone2b/" target='_blank'>Made by Collin Banks</a>
    <p><a href='https://darksky.net' target='_blank'>Powered by Dark Sky</a></p></footer>
    
-  </body> 
-<script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="weather.js"></script>
-<script src="https://gitcdn.link/cdn/darkskyapp/skycons/master/skycons.js"></script>
-<script>
+ <script>
   var x = document.querySelector('#location');
 var api = 'https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/cff4f529e476b9b5d1616fd12e57d185/';
 //put this in front of url in codepen, this allows cross origin requests: https://cors-anywhere.herokuapp.com/
@@ -228,4 +221,12 @@ var month = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
 document.querySelector('#date').innerHTML = daysOfTheWeek[d.getDay()] + ', ' 
 	+ month[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear(); 
 </script>
+	 
+  </body> 
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="weather.js"></script>
+<script src="https://gitcdn.link/cdn/darkskyapp/skycons/master/skycons.js"></script>
 </html>
