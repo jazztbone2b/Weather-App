@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf8">
+  <link rel="stylesheet" type="text/css" href="Weather.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <title>Weather App</title>
+</head>
+
+ <body id='weather'>
+   
+   <div id='weather-info'>
+     
+     <p id='date'></p>
+     
+     <div id='location'></div>
+        
+     <div id='currentTemp' onclick='convert();'></div>
+
+     <div id='conditions'></div>
+
+     <div id="saying"></div>
+
+     <canvas id='icon'></canvas>
+   
+   </div>
+  
+   <footer><a href="https://codepen.io/jazztbone2b/" target='_blank'>Made by Collin Banks</a>
+   <p><a href='https://darksky.net' target='_blank'>Powered by Dark Sky</a></p></footer>
+   
+  </body> 
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="weather.js"></script>
+<script src="https://gitcdn.link/cdn/darkskyapp/skycons/master/skycons.js"></script>
+</html>
